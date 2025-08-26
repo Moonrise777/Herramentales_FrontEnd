@@ -1,0 +1,14 @@
+<nav class="animated-nav">
+  <ul>
+    <!-- Siempre visible -->
+    <li><a routerLink="/inicio" routerLinkActive="active">Inicio</a></li>
+    <li *ngIf="!loginService.isAuthenticated()"><a routerLink="/login" routerLinkActive="active">Login</a></li>
+
+    <!-- Solo visible si está autenticado -->
+    <li *ngIf="loginService.isAuthenticated()"><a routerLink="/cuentas" routerLinkActive="active">Cuentas</a></li>
+    <li *ngIf="loginService.isAuthenticated()"><a routerLink="/reportes" routerLinkActive="active">Reportes</a></li>
+    <li *ngIf="loginService.isAuthenticated()"><a routerLink="/estadisticas" routerLinkActive="active">Estadísticas</a></li>
+
+
+  </ul>
+</nav>

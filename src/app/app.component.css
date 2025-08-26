@@ -1,0 +1,14 @@
+.fondo-div {
+  width: 100%;                /* Ocupa todo el ancho disponible */
+  height: 100vh;              /* Ocupa toda la altura de la ventana */
+  background-image: url('../fondo2.jpg'); /* Ruta al archivo de imagen */
+  background-size: cover;     /* Ajusta la imagen para cubrir todo el div */
+  background-position: center;/* Centra la imagen */
+  background-repeat: no-repeat; /* Evita repeticiones */
+}
+div{
+  /* Estilos para el div dentro de .fondo-div */
+  padding: 1rem;
+  background-color: rgb(255, 255, 255); /* Fondo blanco con opacidad */
+  border-radius: 8px;
+}

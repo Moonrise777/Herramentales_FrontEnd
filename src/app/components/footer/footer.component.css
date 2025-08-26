@@ -1,0 +1,41 @@
+/* ===== Footer personalizado ===== */
+footer {
+  background: #1f1f1f;            /* Fondo oscuro elegante */
+  color: #dcdcdc;                 /* Texto gris claro */
+  font-size: 0.95rem;
+  letter-spacing: 0.5px;
+  border-top: 3px solid #0d6efd;  /* Línea superior en color primario Bootstrap */
+  position: relative;
+}
+
+footer p {
+  margin: 0;
+  padding: 8px 0;
+}
+
+footer a {
+  color: #0d6efd;                 /* Azul de Bootstrap */
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+footer a:hover {
+  color: #ffffff;                 /* Cambia a blanco al pasar el mouse */
+}
+
+footer .social-icons {
+  margin-top: 8px;
+}
+
+footer .social-icons a {
+  display: inline-block;
+  margin: 0 8px;
+  font-size: 1.3rem;
+  color: #dcdcdc;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+footer .social-icons a:hover {
+  color: #0d6efd;
+  transform: scale(1.2);
+}
